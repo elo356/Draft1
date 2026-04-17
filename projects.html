@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premier Services, LLC | Strategic Construction & Project Management in Puerto Rico</title>
-    <meta name="description" content="Premier Services, LLC partners with developers, government programs, and U.S.-based firms to execute construction projects efficiently across Puerto Rico.">
+    <title>Projects | Premier Services, LLC</title>
+    <meta name="description" content="View our completed projects and before/after transformations.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link active" data-en="Home" data-es="Inicio">Home</a>
+                    <a href="index.html" class="nav-link" data-en="Home" data-es="Inicio">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link" data-en="Who We Are" data-es="Quiénes Somos">Who We Are</a>
@@ -39,7 +39,7 @@
                     <a href="services.html" class="nav-link" data-en="Services" data-es="Servicios">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="projects.html" class="nav-link" data-en="Projects" data-es="Proyectos">Projects</a>
+                    <a href="projects.html" class="nav-link active" data-en="Projects" data-es="Proyectos">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link" data-en="Contact" data-es="Contacto">Contact</a>
@@ -60,66 +60,57 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-slider">
-            <div class="hero-slide active">
-                <img src="imgs/pic14.jpg" alt="Premier Services project overview" class="hero-image">
-                <div class="hero-overlay"></div>
+    <!-- Projects Section -->
+    <section class="section section-gray" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Projects" data-es="Nuestros Proyectos">Our Projects</h2>
+                <p class="section-subtitle" data-en="Delivering excellence across Puerto Rico" data-es="Entregando excelencia en todo Puerto Rico">Delivering excellence across Puerto Rico</p>
             </div>
-            <div class="hero-slide">
-                <img src="imgs/pic4.jpg" alt="Premier Services construction work" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/pic5.jpg" alt="Premier Services completed work" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/pic2.jpg" alt="Premier Services leadership portrait" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/pic3.jpg" alt="Premier Services legal and operations portrait" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/pic1.jpg" alt="Premier Services project manager portrait" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/despues1.jpg" alt="Premier Services completed residential project" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-slide">
-                <img src="imgs/despues2.jpg" alt="Premier Services finished construction detail" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-        </div>
-        
-        <div class="hero-content">
-            <h1 class="hero-title" data-en="Strategic Construction & Project Management in Puerto Rico" data-es="Construcción Estratégica y Gestión de Proyectos en Puerto Rico">
-                Strategic Construction & Project Management in <span class="highlight">Puerto Rico</span>
-            </h1>
-            <div class="hero-text-slider">
-                <p class="hero-text-slide active" data-en="Delivering high-quality residential and infrastructure projects with precision, speed, and accountability." data-es="Entregando proyectos residenciales y de infraestructura de alta calidad con precisión, rapidez y responsabilidad.">
-                    Delivering high-quality residential and infrastructure projects with precision, speed, and accountability.
-                </p>
-                <p class="hero-text-slide" data-en="Premier Services, LLC partners with developers, government programs, and U.S.-based firms to execute construction projects efficiently across Puerto Rico." data-es="Premier Services, LLC se asocia con desarrolladores, programas gubernamentales y empresas con sede en EE.UU. para ejecutar proyectos de construcción eficientemente en Puerto Rico.">
-                    Premier Services, LLC partners with developers, government programs, and U.S.-based firms to execute construction projects efficiently across Puerto Rico.
-                </p>
-            </div>
-            <div class="hero-cta">
-                <a href="about.html" class="btn btn-primary" data-en="Learn More" data-es="Saber Más">Learn More</a>
-                <a href="contact.html" class="btn btn-outline" data-en="Contact Us" data-es="Contáctenos">Contact Us</a>
+            
+            <div class="projects-grid">
+                <div class="project-card project-compare">
+                    <img src="imgs/despues1.jpg" alt="Completed residential project" class="project-image project-image-after">
+                    <img src="imgs/antes1.jpg" alt="Residential project before renovation" class="project-image project-image-before">
+                    <div class="project-overlay"></div>
+                    <div class="project-status">
+                        <span class="project-badge project-badge-after" data-en="After" data-es="Después">After</span>
+                        <span class="project-badge project-badge-before" data-en="Before" data-es="Antes">Before</span>
+                    </div>
+                    <span class="project-title" data-en="Residential Transformation" data-es="Transformación Residencial">Residential Transformation</span>
+                </div>
+                <div class="project-card project-compare">
+                    <img src="imgs/despues2.jpg" alt="Completed reconstruction project" class="project-image project-image-after">
+                    <img src="imgs/antes2.jpg" alt="Project condition before reconstruction" class="project-image project-image-before">
+                    <div class="project-overlay"></div>
+                    <div class="project-status">
+                        <span class="project-badge project-badge-after" data-en="After" data-es="Después">After</span>
+                        <span class="project-badge project-badge-before" data-en="Before" data-es="Antes">Before</span>
+                    </div>
+                    <span class="project-title" data-en="Structural Rehabilitation" data-es="Rehabilitación Estructural">Structural Rehabilitation</span>
+                </div>
+                <div class="project-card project-compare">
+                    <img src="imgs/despues3.jpg" alt="Completed infrastructure improvement" class="project-image project-image-after">
+                    <img src="imgs/antes3.jpg" alt="Infrastructure before work began" class="project-image project-image-before">
+                    <div class="project-overlay"></div>
+                    <div class="project-status">
+                        <span class="project-badge project-badge-after" data-en="After" data-es="Después">After</span>
+                        <span class="project-badge project-badge-before" data-en="Before" data-es="Antes">Before</span>
+                    </div>
+                    <span class="project-title" data-en="Exterior Improvement" data-es="Mejora Exterior">Exterior Improvement</span>
+                </div>
+                <div class="project-card project-compare">
+                    <img src="imgs/despues4.jpg" alt="Completed property renovation" class="project-image project-image-after">
+                    <img src="imgs/antes4.jpg" alt="Property before renovation" class="project-image project-image-before">
+                    <div class="project-overlay"></div>
+                    <div class="project-status">
+                        <span class="project-badge project-badge-after" data-en="After" data-es="Después">After</span>
+                        <span class="project-badge project-badge-before" data-en="Before" data-es="Antes">Before</span>
+                    </div>
+                    <span class="project-title" data-en="Complete Home Renovation" data-es="Renovación Completa del Hogar">Complete Home Renovation</span>
+                </div>
             </div>
         </div>
-        
-        <a href="about.html" class="scroll-indicator" aria-label="Go to About page">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-        </a>
     </section>
 
     <!-- Footer -->
@@ -212,26 +203,6 @@
             }
         });
         
-        // Hero Slider
-        const heroSlides = document.querySelectorAll('.hero-slide');
-        const heroTextSlides = document.querySelectorAll('.hero-text-slide');
-        let currentSlide = 0;
-        let currentTextSlide = 0;
-        
-        function nextHeroSlide() {
-            heroSlides[currentSlide].classList.remove('active');
-            currentSlide = (currentSlide + 1) % heroSlides.length;
-            heroSlides[currentSlide].classList.add('active');
-
-            if (heroTextSlides.length > 0) {
-                heroTextSlides[currentTextSlide].classList.remove('active');
-                currentTextSlide = (currentTextSlide + 1) % heroTextSlides.length;
-                heroTextSlides[currentTextSlide].classList.add('active');
-            }
-        }
-        
-        setInterval(nextHeroSlide, 5000);
-        
         // Mobile Menu Toggle
         const mobileToggle = document.getElementById('mobileToggle');
         const navMenu = document.querySelector('.nav-menu');
@@ -239,6 +210,42 @@
         mobileToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
         });
+
+        // Before/After Projects
+        const projectCompareCards = document.querySelectorAll('.project-compare');
+        const mobileProjectsMedia = window.matchMedia('(hover: none), (pointer: coarse), (max-width: 768px)');
+        let projectCompareInterval;
+
+        function clearProjectCompareInterval() {
+            if (projectCompareInterval) {
+                clearInterval(projectCompareInterval);
+                projectCompareInterval = null;
+            }
+        }
+
+        function startProjectCompareAutoplay() {
+            clearProjectCompareInterval();
+
+            if (!mobileProjectsMedia.matches || !projectCompareCards.length) {
+                projectCompareCards.forEach(card => card.classList.remove('show-before'));
+                return;
+            }
+
+            let showBefore = false;
+            projectCompareInterval = setInterval(() => {
+                showBefore = !showBefore;
+                projectCompareCards.forEach(card => {
+                    card.classList.toggle('show-before', showBefore);
+                });
+            }, 2200);
+        }
+
+        startProjectCompareAutoplay();
+        if (typeof mobileProjectsMedia.addEventListener === 'function') {
+            mobileProjectsMedia.addEventListener('change', startProjectCompareAutoplay);
+        } else if (typeof mobileProjectsMedia.addListener === 'function') {
+            mobileProjectsMedia.addListener(startProjectCompareAutoplay);
+        }
     </script>
 </body>
 </html>
